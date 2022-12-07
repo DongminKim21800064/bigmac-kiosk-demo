@@ -1,7 +1,9 @@
 import streamlit as st
 
-st.title("Order")
 st.markdown("*21800064 Dongmin Kim*")
+
+st.title("Order")
+
 st.image("menu.png", width=300)
 
 choice = st.radio(
